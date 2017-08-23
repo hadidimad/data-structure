@@ -17,7 +17,7 @@ From Wikipedia
 - [ ] Priority queue
 
 ##### Sort
-- [ ] Bubble sort 
+- [x] Bubble sort (c++)
 - [ ] Insertion sort
 - [ ] Selection sort
 - [ ] Merge sort
