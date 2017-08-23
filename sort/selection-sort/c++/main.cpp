@@ -2,30 +2,33 @@
 
 using namespace std;
 
-void bubbleSort(int *array, int length)
+void selectionSort(int *array, int length)
 {
-    for (int i = 0; i < length - 1; i++)
+    int min;
+    for (int j = 0; j < length - 1; j++)
     {
-        for (int j = 0; j < length - 1; j++)
+        min = j;
+        for (int i = j; i < length; i++)
         {
-            if (array[j] > array[j + 1])
+            if (array[min] > array[i])
             {
-                swap(array[j], array[j + 1]);
+                min = i;
             }
         }
+        swap(array[min], array[j]);
     }
 }
 
 int main()
 {
-    int a[7] = {23, 3, 1, 89, 10, 2, 0};
+    int a[7]={34,23,1,2,85,70,100};
     cout << "unSorted : {";
     for (int i = 0; i < 7; i++)
     {
         cout << a[i] << " ,";
     }
     cout << "}" << endl;
-    bubbleSort(a, 7);
+    selectionSort(a,7);
     cout << "sorted : {";
     for (int i = 0; i < 7; i++)
     {
