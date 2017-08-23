@@ -18,7 +18,7 @@ From Wikipedia
 
 ##### Sort
 - [x] Bubble sort (c++)
-- [ ] Insertion sort
+- [x] Insertion sort (c++)
 - [x] Selection sort (c++)
 - [ ] Merge sort
 - [ ] Quick sort
