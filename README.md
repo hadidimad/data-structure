@@ -17,7 +17,7 @@ From Wikipedia
 - [ ] Priority queue
 
 ##### Sort
-- [x] Bubble sort (c++)
+- [x] Bubble sort (c++ , golang)
 - [x] Insertion sort (c++)
 - [x] Selection sort (c++)
 - [ ] Merge sort
