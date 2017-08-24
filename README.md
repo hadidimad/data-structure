@@ -18,7 +18,7 @@ From Wikipedia
 
 ##### Sort
 - [x] Bubble sort (c++ , golang)
-- [x] Insertion sort (c++)
+- [x] Insertion sort (c++ , golang)
 - [x] Selection sort (c++)
 - [ ] Merge sort
 - [x] Quick sort (c++)
